@@ -8,7 +8,7 @@ public class App
 	private static final Logger LOG = LogManager.getLogger(App.class);
 	
 	private boolean validate(String password) {
-		return password.matches("[a-zA-Z]{8,}");
+		return password.matches("(?=.*)[A-Z][a-zA-Z]{7,}");
 	}
 	
     public static void main( String[] args )
