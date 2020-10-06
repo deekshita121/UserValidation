@@ -44,3 +44,12 @@ INFO  | 2020-10-06 18:19:38 | [main] uservalidation.App (App.java:74) - Enter Ph
 INFO  | 2020-10-06 18:19:45 | [main] uservalidation.App (App.java:78) - Valid
 INFO  | 2020-10-06 18:19:45 | [main] uservalidation.App (App.java:85) - Enter password: 
 INFO  | 2020-10-06 18:19:51 | [main] uservalidation.App (App.java:89) - Valid
+INFO  | 2020-10-06 23:35:06 | [main] uservalidation.UserValidation (UserValidation.java:56) - Enter First Name: 
+INFO  | 2020-10-06 23:35:11 | [main] uservalidation.UserValidation (UserValidation.java:62) - Valid
+INFO  | 2020-10-06 23:35:11 | [main] uservalidation.UserValidation (UserValidation.java:71) - Enter Last Name: 
+INFO  | 2020-10-06 23:35:15 | [main] uservalidation.UserValidation (UserValidation.java:77) - Valid
+INFO  | 2020-10-06 23:35:15 | [main] uservalidation.UserValidation (UserValidation.java:85) - Enter EmailId: 
+INFO  | 2020-10-06 23:35:25 | [main] uservalidation.UserValidation (UserValidation.java:101) - Enter Phone Number: 
+INFO  | 2020-10-06 23:36:20 | [main] uservalidation.UserValidation (UserValidation.java:107) - Valid
+INFO  | 2020-10-06 23:36:20 | [main] uservalidation.UserValidation (UserValidation.java:115) - Enter password: 
+INFO  | 2020-10-06 23:36:28 | [main] uservalidation.UserValidation (UserValidation.java:122) - Valid
