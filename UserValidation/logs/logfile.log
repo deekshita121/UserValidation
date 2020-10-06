@@ -17,3 +17,6 @@ INFO  | 2020-10-06 16:27:25 | [main] uservalidation.App (App.java:18) - Enter Ph
 INFO  | 2020-10-06 16:27:36 | [main] uservalidation.App (App.java:23) - Valid
 INFO  | 2020-10-06 16:35:50 | [main] uservalidation.App (App.java:18) - Enter Password: 
 INFO  | 2020-10-06 16:35:58 | [main] uservalidation.App (App.java:23) - Valid
+INFO  | 2020-10-06 16:39:38 | [main] uservalidation.App (App.java:18) - Enter Password: 
+INFO  | 2020-10-06 16:40:22 | [main] uservalidation.App (App.java:18) - Enter Password: 
+INFO  | 2020-10-06 16:40:26 | [main] uservalidation.App (App.java:27) - Invalid
