@@ -34,3 +34,13 @@ INFO  | 2020-10-06 17:03:53 | [main] uservalidation.App (App.java:18) - Enter em
 INFO  | 2020-10-06 17:04:16 | [main] uservalidation.App (App.java:23) - Valid
 INFO  | 2020-10-06 17:04:27 | [main] uservalidation.App (App.java:18) - Enter emailId: 
 INFO  | 2020-10-06 17:05:11 | [main] uservalidation.App (App.java:23) - Valid
+INFO  | 2020-10-06 18:19:17 | [main] uservalidation.App (App.java:40) - Enter First Name: 
+INFO  | 2020-10-06 18:19:24 | [main] uservalidation.App (App.java:44) - Valid
+INFO  | 2020-10-06 18:19:24 | [main] uservalidation.App (App.java:52) - Enter Last Name: 
+INFO  | 2020-10-06 18:19:30 | [main] uservalidation.App (App.java:56) - Valid
+INFO  | 2020-10-06 18:19:30 | [main] uservalidation.App (App.java:63) - Enter EmailId: 
+INFO  | 2020-10-06 18:19:38 | [main] uservalidation.App (App.java:67) - Valid
+INFO  | 2020-10-06 18:19:38 | [main] uservalidation.App (App.java:74) - Enter Phone Number: 
+INFO  | 2020-10-06 18:19:45 | [main] uservalidation.App (App.java:78) - Valid
+INFO  | 2020-10-06 18:19:45 | [main] uservalidation.App (App.java:85) - Enter password: 
+INFO  | 2020-10-06 18:19:51 | [main] uservalidation.App (App.java:89) - Valid
