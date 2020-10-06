@@ -1,3 +1,5 @@
 INFO  | 2020-10-06 15:17:35 | [main] uservalidation.App (App.java:21) - Enter First Name of user: 
 INFO  | 2020-10-06 15:17:40 | [main] uservalidation.App (App.java:26) - Valid
 INFO  | 2020-10-06 15:19:12 | [main] uservalidation.App (App.java:18) - Welcome to user validation 
+INFO  | 2020-10-06 15:27:49 | [main] uservalidation.App (App.java:18) - Enter First Name of user: 
+INFO  | 2020-10-06 15:27:55 | [main] uservalidation.App (App.java:23) - Valid
