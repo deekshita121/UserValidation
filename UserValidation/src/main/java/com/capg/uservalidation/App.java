@@ -7,18 +7,18 @@ public class App
 {
 	private static final Logger LOG = LogManager.getLogger(App.class);
 	
-	private boolean validate(String lastName) {
-		return lastName.matches("^[A-Z]{1}[a-z]{2,}$");
+	private boolean validate(String emailId) {
+		return emailId.matches("^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9-_.]+$");
 	}
 	
     public static void main( String[] args )
     {
     	
         Scanner sc = new Scanner(System.in);
-        LOG.info("Enter Last Name of user: ");
-        String lastName = sc.nextLine();
+        LOG.info("Enter Email Id of user: ");
+        String emailId = sc.nextLine();
         App app = new App();
-        if(app.validate(lastName))
+        if(app.validate(emailId))
         {
        	 LOG.info("Valid");
         }
