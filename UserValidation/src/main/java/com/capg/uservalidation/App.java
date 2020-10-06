@@ -7,18 +7,18 @@ public class App
 {
 	private static final Logger LOG = LogManager.getLogger(App.class);
 	
-	private boolean validate(String phoneNum) {
-		return phoneNum.matches("^[91]{2}\\s[6-9]{1}[0-9]{9}$");
+	private boolean validate(String password) {
+		return password.matches("[a-zA-Z]{8,}");
 	}
 	
     public static void main( String[] args )
     {
     	
         Scanner sc = new Scanner(System.in);
-        LOG.info("Enter Phone number of user: ");
-        String phoneNum = sc.nextLine();
+        LOG.info("Enter Password: ");
+        String password = sc.nextLine();
         App app = new App();
-        if(app.validate(phoneNum))
+        if(app.validate(password))
         {
        	 LOG.info("Valid");
         }
