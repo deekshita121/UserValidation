@@ -11,3 +11,7 @@ INFO  | 2020-10-06 16:16:31 | [main] uservalidation.App (App.java:18) - Enter Em
 INFO  | 2020-10-06 16:16:41 | [main] uservalidation.App (App.java:27) - Invalid
 INFO  | 2020-10-06 16:17:15 | [main] uservalidation.App (App.java:18) - Enter Email Id of user: 
 INFO  | 2020-10-06 16:17:25 | [main] uservalidation.App (App.java:23) - Valid
+INFO  | 2020-10-06 16:21:12 | [main] uservalidation.App (App.java:18) - Enter Email Id of user: 
+INFO  | 2020-10-06 16:21:24 | [main] uservalidation.App (App.java:23) - Valid
+INFO  | 2020-10-06 16:27:25 | [main] uservalidation.App (App.java:18) - Enter Phone number of user: 
+INFO  | 2020-10-06 16:27:36 | [main] uservalidation.App (App.java:23) - Valid
