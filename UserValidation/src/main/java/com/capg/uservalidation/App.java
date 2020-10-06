@@ -7,18 +7,18 @@ public class App
 {
 	private static final Logger LOG = LogManager.getLogger(App.class);
 	
-	private boolean validate(String password) {
-		return password.matches("(?=.*[A-Z])(?=.*[0-9])(?=.*[!@%$&*_.?])[a-zA-Z0-9!@$%&*_.?]{8,}");
+	private boolean validate(String emailId) {
+		return emailId.matches("^[a-zA-Z0-9_]+([.+-]{1}[a-zA-Z0-9_]+)*[@]{1}[a-zAZ0-9]+[.]{1}[a-zA-Z0-9]{2,}([.]{1}[a-zA-Z]{2,})?$");
 	}
 	
     public static void main( String[] args )
     {
     	
         Scanner sc = new Scanner(System.in);
-        LOG.info("Enter Password: ");
-        String password = sc.nextLine();
+        LOG.info("Enter emailId: ");
+        String emailId = sc.nextLine();
         App app = new App();
-        if(app.validate(password))
+        if(app.validate(emailId))
         {
        	 LOG.info("Valid");
         }
