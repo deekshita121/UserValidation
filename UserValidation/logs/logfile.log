@@ -5,3 +5,9 @@ INFO  | 2020-10-06 15:27:49 | [main] uservalidation.App (App.java:18) - Enter Fi
 INFO  | 2020-10-06 15:27:55 | [main] uservalidation.App (App.java:23) - Valid
 INFO  | 2020-10-06 16:02:49 | [main] uservalidation.App (App.java:18) - Enter Last Name of user: 
 INFO  | 2020-10-06 16:02:55 | [main] uservalidation.App (App.java:23) - Valid
+INFO  | 2020-10-06 16:13:36 | [main] uservalidation.App (App.java:18) - Enter Email Id of user: 
+INFO  | 2020-10-06 16:13:46 | [main] uservalidation.App (App.java:27) - Invalid
+INFO  | 2020-10-06 16:16:31 | [main] uservalidation.App (App.java:18) - Enter Email Id of user: 
+INFO  | 2020-10-06 16:16:41 | [main] uservalidation.App (App.java:27) - Invalid
+INFO  | 2020-10-06 16:17:15 | [main] uservalidation.App (App.java:18) - Enter Email Id of user: 
+INFO  | 2020-10-06 16:17:25 | [main] uservalidation.App (App.java:23) - Valid
