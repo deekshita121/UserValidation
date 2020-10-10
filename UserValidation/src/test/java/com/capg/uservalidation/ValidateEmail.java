@@ -26,7 +26,14 @@ public class ValidateEmail
 @Test
    public void validateEmail() 
    {
-       App emailValidation = new App();
-       assertEquals(expectedValidation,emailValidation.validateEmailId(emailId));
+	   UserValidation emailValidation = new UserValidation();
+	   try
+	   {
+            assertEquals(expectedValidation,emailValidation.validateEmailId(emailId));
+	   }
+	   catch(UserValidationException e)
+       {
+       	e.printStackTrace();
+       }
    }
 }
