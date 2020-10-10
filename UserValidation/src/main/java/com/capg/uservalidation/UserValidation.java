@@ -31,7 +31,7 @@ public class UserValidation
 	}
 	
 	public boolean validateEmailId(String emailId) throws UserValidationException {
-		if(emailId.matches("^[a-zA-Z0-9_]+([.+-]{1}[a-zA-Z0-9_]+)*[@]{1}[a-zAZ0-9]+[.]{1}[a-zA-Z0-9]{2,}([.]{1}[a-zA-Z]{2,})?$"))
+		if(emailId.matches("^[a-zA-Z0-9]+([_+-.]{1}[a-zA-Z0-9]+)?@[a-zA-Z0-9]+[.]{1}[a-zA-Z]{2,4}([.]{1}[a-zA-Z]{2,3})?$"))
 			return true;
 		else
 			throw new UserValidationException("Invlid Email");
