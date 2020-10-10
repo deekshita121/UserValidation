@@ -3,12 +3,22 @@ import java.util.Scanner;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+@FunctionalInterface
+interface UserValidator {
+	boolean validate(String input);
+}
+
 public class UserValidation 
 {
 	private static final Logger LOG = LogManager.getLogger(UserValidation.class);
+	UserValidator validateFirstName = (firstName)->firstName.matches("^[A-Z]{1}[a-z]{2,}");
+	UserValidator validateLastName = (lastName)->lastName.matches("^[A-Z]{1}[a-z]{2,}");
+	UserValidator validatePhoneNum = (phoneNum)->phoneNum.matches("[91]{2}\\s[6-9]{1}[0-9]{9}$");
+	UserValidator validateEmailId = (emailId)->emailId.matches("^[a-zA-Z0-9_]+([.+-]{1}[a-zA-Z0-9_]+)*[@]{1}[a-zA-Z0-9]+[.]{1}[a-zA-Z0-9]{2,}([.]{1}[a-zA-Z]{2,})?$");
+	UserValidator validatePassword = (password)->password.matches("(?=.*[A-Z])(?=.*[0-9])(?=.*[!@%$&*_.?])[A-Za-z0-9!@$%&*_?.]{8,}$");
 	
 	public boolean validateFirstName(String firstName) throws UserValidationException{
-		if(firstName.matches("^[A-Z]{1}[a-z]{2,}"))
+		if(validateFirstName.validate(firstName))
 			return true;
 		else
 			throw new UserValidationException("Invalid First Name");
@@ -16,7 +26,7 @@ public class UserValidation
 	}
 	
 	public boolean validateLastName(String lastName) throws UserValidationException {
-		if(lastName.matches("^[A-Z]{1}[a-z]{2,}"))
+		if(validateLastName.validate(lastName))
 			return true;
 		else
 			throw new UserValidationException("Invalid Last Name");
@@ -24,21 +34,21 @@ public class UserValidation
 
 	
 	public boolean validatePhoneNum(String phoneNum) throws UserValidationException{
-		if(phoneNum.matches("[91]{2}\\s[6-9]{1}[0-9]{9}$"))
+		if(validatePhoneNum.validate(phoneNum))
 			return true;
 		else
 			throw new UserValidationException("Invalid Phone number");
 	}
 	
 	public boolean validateEmailId(String emailId) throws UserValidationException {
-		if(emailId.matches("^[a-zA-Z0-9]+([_+-.]{1}[a-zA-Z0-9]+)?@[a-zA-Z0-9]+[.]{1}[a-zA-Z]{2,4}([.]{1}[a-zA-Z]{2,3})?$"))
+		if(validateEmailId.validate(emailId))
 			return true;
 		else
 			throw new UserValidationException("Invlid Email");
 	}
 	
 	public boolean validatePassword(String password) throws UserValidationException{
-		if(password.matches("(?=.*[A-Z])(?=.*[0-9])(?=.*[!@%$&*_.?])[A-Za-z0-9!@$%&*_?.]{8,}$"))
+		if(validatePassword.validate(password))
 			return true;
 		else
 			throw new UserValidationException("Inavlid Password");
