@@ -53,3 +53,20 @@ INFO  | 2020-10-06 23:35:25 | [main] uservalidation.UserValidation (UserValidati
 INFO  | 2020-10-06 23:36:20 | [main] uservalidation.UserValidation (UserValidation.java:107) - Valid
 INFO  | 2020-10-06 23:36:20 | [main] uservalidation.UserValidation (UserValidation.java:115) - Enter password: 
 INFO  | 2020-10-06 23:36:28 | [main] uservalidation.UserValidation (UserValidation.java:122) - Valid
+INFO  | 2020-10-10 23:00:59 | [main] uservalidation.UserValidation (UserValidation.java:66) - Enter First Name: 
+INFO  | 2020-10-10 23:01:06 | [main] uservalidation.UserValidation (UserValidation.java:72) - Valid
+INFO  | 2020-10-10 23:01:06 | [main] uservalidation.UserValidation (UserValidation.java:81) - Enter Last Name: 
+INFO  | 2020-10-10 23:01:12 | [main] uservalidation.UserValidation (UserValidation.java:87) - Valid
+INFO  | 2020-10-10 23:01:12 | [main] uservalidation.UserValidation (UserValidation.java:95) - Enter EmailId: 
+INFO  | 2020-10-10 23:01:25 | [main] uservalidation.UserValidation (UserValidation.java:102) - Valid
+INFO  | 2020-10-10 23:01:25 | [main] uservalidation.UserValidation (UserValidation.java:111) - Enter Phone Number: 
+INFO  | 2020-10-10 23:01:37 | [main] uservalidation.UserValidation (UserValidation.java:117) - Valid
+INFO  | 2020-10-10 23:01:37 | [main] uservalidation.UserValidation (UserValidation.java:125) - Enter password: 
+INFO  | 2020-10-10 23:01:46 | [main] uservalidation.UserValidation (UserValidation.java:132) - Valid
+INFO  | 2020-10-10 23:03:43 | [main] uservalidation.UserValidation (UserValidation.java:66) - Enter First Name: 
+INFO  | 2020-10-10 23:03:57 | [main] uservalidation.UserValidation (UserValidation.java:72) - Valid
+INFO  | 2020-10-10 23:03:57 | [main] uservalidation.UserValidation (UserValidation.java:81) - Enter Last Name: 
+INFO  | 2020-10-10 23:04:02 | [main] uservalidation.UserValidation (UserValidation.java:87) - Valid
+INFO  | 2020-10-10 23:04:02 | [main] uservalidation.UserValidation (UserValidation.java:95) - Enter EmailId: 
+INFO  | 2020-10-10 23:04:16 | [main] uservalidation.UserValidation (UserValidation.java:102) - Valid
+INFO  | 2020-10-10 23:04:16 | [main] uservalidation.UserValidation (UserValidation.java:111) - Enter Phone Number: 
